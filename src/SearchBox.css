@@ -1,0 +1,34 @@
+.SearchBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(173, 216, 230, 0.7); 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px; 
+    margin: auto; 
+}
+
+.SearchBox form {
+    width: 100%; 
+}
+
+.SearchBox .MuiTextField-root {
+    margin-bottom: 10px; 
+}
+
+.SearchBox button {
+    background-color: #007BFF; 
+    color: white;
+    &:hover {
+        background-color: #0056b3; 
+    }
+}
+
+.SearchBox p {
+    color: red; 
+    margin-top: 10px; 
+}
